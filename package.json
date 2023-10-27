@@ -12,14 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kevinzunigacuellar/remark-code-title",
+    "url": "https://github.com/sbin0819/remark-code-title-polyfill",
     "directory": "packages/remark-code-title"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kevinzunigacuellar/remark-code-title/issues"
-  },
-  "homepage": "https://github.com/kevinzunigacuellar/remark-code-title#readme",
   "devDependencies": {
     "prettier": "^2.7.1"
   },
