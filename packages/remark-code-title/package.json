@@ -1,17 +1,13 @@
 {
-  "name": "remark-code-title",
-  "version": "0.2.5",
+  "name": "remark-code-title-polyfill",
+  "version": "0.1.1",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kevinzunigacuellar/remark-code-title"
+    "url": "https://github.com/sbin0819/remark-code-title-polyfill"
   },
-  "bugs": {
-    "url": "https://github.com/kevinzunigacuellar/remark-code-title/issues"
-  },
-  "homepage": "https://github.com/kevinzunigacuellar/remark-code-title#README",
   "description": "remark plugin to add titles to code blocks",
   "exports": {
     ".": "./dist/index.js",
@@ -25,10 +21,6 @@
     "build": "tsup src/index.ts --format esm --dts --clean",
     "dev": "vitest",
     "test": "vitest run"
-  },
-  "author": {
-    "name": "Kevin Zuniga Cuellar",
-    "url": "https://twitter.com/kevinzunigacuel"
   },
   "keywords": [
     "remark-plugin",
